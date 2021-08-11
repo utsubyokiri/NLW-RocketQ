@@ -21,6 +21,7 @@ html {
   --grey-blue: #a1b2cd;
   --grey-medium: #d3d9e2;
   --grey-light: #e5eaf1;
+  --grey-medium: #eaecf1;
 
   font-size: 62.5%;
 }
@@ -89,7 +90,7 @@ button:hover,
   filter: brightness(1.2);
 }
 
-button > img >,
+button > img,
 .button > img {
   margin-right: 1rem;
   width: 2rem;
@@ -102,6 +103,17 @@ button.outlined,
   border: 0.2rem solid var(--blue);
 }
 
+button.red,
+.button.red {
+  background: var(--red);
+  color: var(--white);
+}
+
+button.grey,
+.button.grey {
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
 /* HEADER */
 
 .content header {
